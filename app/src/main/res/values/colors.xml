@@ -5,6 +5,7 @@
 
 
     <color name="backgroundDefaultColor">@android:color/background_light</color>
+    <color name="button_color_selector">#006687</color>
 
     <color name="seed">#2367f6</color>
     <color name="md_theme_light_primary">#0053DA</color>
