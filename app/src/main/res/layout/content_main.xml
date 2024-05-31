@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
-        android:id="@+id/tv_hello_world"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Hello, world!"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <include layout="@layout/main_include_all" />
+<!--    <include layout="@layout/main_include_card_buttons" />-->
+<!--    <include layout="@layout/main_include_instruction_bar" />-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
